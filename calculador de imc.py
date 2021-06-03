@@ -1,3 +1,6 @@
+# Calculador do Índice de Massa Corporal. 
+# Esse código possui todos os possíveis resultados.
+
 print('\n\---- Índice de Massa Corporal ----/\n')
 nome = input('Informe seu nome: ')
 
