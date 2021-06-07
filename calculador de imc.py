@@ -4,7 +4,6 @@
 print('\n\---- Índice de Massa Corporal ----/\n')
 nome = input('Informe seu nome: ')
 
-
 def calculo_imc(peso, altura):
     imc = peso / altura ** 2
     print('\n\---- Resultado ----/\n')
