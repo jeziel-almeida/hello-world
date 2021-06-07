@@ -8,7 +8,7 @@ def calculo_imc(peso, altura):
     imc = peso / altura ** 2
     print('\n\---- Resultado ----/\n')
     print('Paciente {}, seu resultado foi:'.format(nome))
-    print('IMC: {:.1f}. Diagnóstico:\n'.format(imc))
+    print('IMC: {:.1f}.\nDiagnóstico:\n'.format(imc))
     if imc < 18.5:
          print('Você está abaixo do peso.\n')
     elif 18.6 <= imc <= 24.9:
